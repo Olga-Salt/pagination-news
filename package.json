@@ -1,0 +1,33 @@
+{
+  "name": "pagination-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indexnpm.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /pagination-news/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olga-Salt/pagination-news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olga-Salt/pagination-news/issues"
+  },
+  "homepage": "https://github.com/Olga-Salt/pagination-news#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.2",
+    "sass": "^1.43.3"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.1.0",
+    "src": "^1.1.2"
+  }
+}
